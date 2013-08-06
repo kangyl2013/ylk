@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073B70DE1370552600FBD647 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073B70DD1370552600FBD647 /* AVFoundation.framework */; };
+		073B710C1370562700FBD647 /* MicBlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073B710A1370562700FBD647 /* MicBlowViewController.m */; };
+		073B710D1370562700FBD647 /* MicBlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073B710B1370562700FBD647 /* MicBlowViewController.xib */; };
+		07439EAB1371A0330058E531 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07439EAA1371A0330058E531 /* AudioToolbox.framework */; };
+		07D3B64D138C9188001D6E1A /* 报告背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3B648138C9188001D6E1A /* 报告背景.png */; };
+		07D3B64E138C9188001D6E1A /* 肺功能报告导出.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3B649138C9188001D6E1A /* 肺功能报告导出.png */; };
+		07D3B64F138C9188001D6E1A /* 风车.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3B64A138C9188001D6E1A /* 风车.png */; };
+		07D3B650138C9188001D6E1A /* 封面.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3B64B138C9188001D6E1A /* 封面.png */; };
+		07D3B651138C9188001D6E1A /* 内页.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3B64C138C9188001D6E1A /* 内页.png */; };
+		07D3B6F0138CA218001D6E1A /* ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3B6EF138CA218001D6E1A /* ico.png */; };
+		07FE1E801371489800355433 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FE1E7F1371489800355433 /* pic1.png */; };
+		1D3623260D0F684500981E51 /* MicBlowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MicBlowAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		FC8B4CC5144D6F6000F4CD8C /* ArrayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8B4CC4144D6F6000F4CD8C /* ArrayUtil.m */; };
+		FCB6AA8914218D1A0007B8B9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB6AA8814218D1A0007B8B9 /* CoreAudio.framework */; };
+		FCB6AA8C14218D270007B8B9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB6AA8B14218D270007B8B9 /* CoreFoundation.framework */; };
+		FCB6AA9014218D810007B8B9 /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6AA8F14218D810007B8B9 /* Recorder.m */; };
+		FCB6AACE1421EECF0007B8B9 /* red in Resources */ = {isa = PBXBuildFile; fileRef = FCB6AACD1421EECF0007B8B9 /* red */; };
+		FCE9959C14511E4800642D08 /* SpeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE9959B14511E4800642D08 /* SpeedController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073B70DD1370552600FBD647 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		073B71091370562700FBD647 /* MicBlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicBlowViewController.h; sourceTree = "<group>"; };
+		073B710A1370562700FBD647 /* MicBlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicBlowViewController.m; sourceTree = "<group>"; };
+		073B710B1370562700FBD647 /* MicBlowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MicBlowViewController.xib; path = Classes/MicBlowViewController.xib; sourceTree = "<group>"; };
+		07439EAA1371A0330058E531 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		07D3B648138C9188001D6E1A /* 报告背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "报告背景.png"; sourceTree = "<group>"; };
+		07D3B649138C9188001D6E1A /* 肺功能报告导出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "肺功能报告导出.png"; sourceTree = "<group>"; };
+		07D3B64A138C9188001D6E1A /* 风车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风车.png"; sourceTree = "<group>"; };
+		07D3B64B138C9188001D6E1A /* 封面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "封面.png"; sourceTree = "<group>"; };
+		07D3B64C138C9188001D6E1A /* 内页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内页.png"; sourceTree = "<group>"; };
+		07D3B6EF138CA218001D6E1A /* ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico.png; sourceTree = "<group>"; };
+		07FE1E7F1371489800355433 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MicBlowAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicBlowAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MicBlowAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicBlowAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MicBlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicBlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MicBlow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicBlow_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MicBlow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MicBlow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FC3CDD2D140E3EA7005D24DD /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		FC3CDD30140E3EA7005D24DD /* wpdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wpdef.h; sourceTree = "<group>"; };
+		FC8B4CC3144D6F6000F4CD8C /* ArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtil.h; sourceTree = "<group>"; };
+		FC8B4CC4144D6F6000F4CD8C /* ArrayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayUtil.m; sourceTree = "<group>"; };
+		FCB6AA8814218D1A0007B8B9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FCB6AA8B14218D270007B8B9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FCB6AA8E14218D810007B8B9 /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		FCB6AA8F14218D810007B8B9 /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
+		FCB6AACD1421EECF0007B8B9 /* red */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = red; sourceTree = "<group>"; };
+		FCB6AACF1421F5110007B8B9 /* windpeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windpeak.h; sourceTree = "<group>"; };
+		FCE99596145104E100642D08 /* SysConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysConfig.h; sourceTree = "<group>"; };
+		FCE9959A14511E4800642D08 /* SpeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedController.h; sourceTree = "<group>"; };
+		FCE9959B14511E4800642D08 /* SpeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB6AA8C14218D270007B8B9 /* CoreFoundation.framework in Frameworks */,
+				FCB6AA8914218D1A0007B8B9 /* CoreAudio.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				073B70DE1370552600FBD647 /* AVFoundation.framework in Frameworks */,
+				07439EAB1371A0330058E531 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCE9959914511E0900642D08 /* controller */,
+				FCE9958F145104C600642D08 /* config */,
+				FC8B4CC1144D6EE500F4CD8C /* tools */,
+				FCB6AA8D14218D510007B8B9 /* record */,
+				FC3CDD2D140E3EA7005D24DD /* filter.h */,
+				FCB6AACF1421F5110007B8B9 /* windpeak.h */,
+				FC3CDD30140E3EA7005D24DD /* wpdef.h */,
+				1D3623240D0F684500981E51 /* MicBlowAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MicBlowAppDelegate.m */,
+				073B71091370562700FBD647 /* MicBlowViewController.h */,
+				073B710A1370562700FBD647 /* MicBlowViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MicBlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MicBlow_Prefix.pch */,
+				07FE1E7F1371489800355433 /* pic1.png */,
+				07D3B6EF138CA218001D6E1A /* ico.png */,
+				07D3B648138C9188001D6E1A /* 报告背景.png */,
+				07D3B649138C9188001D6E1A /* 肺功能报告导出.png */,
+				07D3B64A138C9188001D6E1A /* 风车.png */,
+				07D3B64B138C9188001D6E1A /* 封面.png */,
+				07D3B64C138C9188001D6E1A /* 内页.png */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MicBlow-Info.plist */,
+				073B710B1370562700FBD647 /* MicBlowViewController.xib */,
+				FCB6AACD1421EECF0007B8B9 /* red */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6AA8B14218D270007B8B9 /* CoreFoundation.framework */,
+				FCB6AA8814218D1A0007B8B9 /* CoreAudio.framework */,
+				07439EAA1371A0330058E531 /* AudioToolbox.framework */,
+				073B70DD1370552600FBD647 /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8B4CC1144D6EE500F4CD8C /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B4CC3144D6F6000F4CD8C /* ArrayUtil.h */,
+				FC8B4CC4144D6F6000F4CD8C /* ArrayUtil.m */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		FCB6AA8D14218D510007B8B9 /* record */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6AA8E14218D810007B8B9 /* Recorder.h */,
+				FCB6AA8F14218D810007B8B9 /* Recorder.m */,
+			);
+			name = record;
+			sourceTree = "<group>";
+		};
+		FCE9958F145104C600642D08 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				FCE99596145104E100642D08 /* SysConfig.h */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		FCE9959914511E0900642D08 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCE9959A14511E4800642D08 /* SpeedController.h */,
+				FCE9959B14511E4800642D08 /* SpeedController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MicBlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MicBlow" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicBlow;
+			productName = MicBlow;
+			productReference = 1D6058910D05DD3D006BFB54 /* MicBlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MicBlow" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MicBlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				073B710D1370562700FBD647 /* MicBlowViewController.xib in Resources */,
+				07FE1E801371489800355433 /* pic1.png in Resources */,
+				07D3B64D138C9188001D6E1A /* 报告背景.png in Resources */,
+				07D3B64E138C9188001D6E1A /* 肺功能报告导出.png in Resources */,
+				07D3B64F138C9188001D6E1A /* 风车.png in Resources */,
+				07D3B650138C9188001D6E1A /* 封面.png in Resources */,
+				07D3B651138C9188001D6E1A /* 内页.png in Resources */,
+				07D3B6F0138CA218001D6E1A /* ico.png in Resources */,
+				FCB6AACE1421EECF0007B8B9 /* red in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MicBlowAppDelegate.m in Sources */,
+				073B710C1370562700FBD647 /* MicBlowViewController.m in Sources */,
+				FCB6AA9014218D810007B8B9 /* Recorder.m in Sources */,
+				FC8B4CC5144D6F6000F4CD8C /* ArrayUtil.m in Sources */,
+				FCE9959C14511E4800642D08 /* SpeedController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hong pai (GMRP3Z69QL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MicBlow_Prefix.pch;
+				INFOPLIST_FILE = "MicBlow-Info.plist";
+				PRODUCT_NAME = MicBlow;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C46113E-877E-4214-9674-3ACEAC404CA2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Elive Info-Tech Co.,Ltd.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MicBlow_Prefix.pch;
+				INFOPLIST_FILE = "MicBlow-Info.plist";
+				PRODUCT_NAME = MicBlow;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03735F1E-8D64-4EE2-A7C6-0AB399F4ECF2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hong pai (GMRP3Z69QL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				New_Setting = "";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C46113E-877E-4214-9674-3ACEAC404CA2";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Elive Info-Tech Co.,Ltd.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				New_Setting = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03735F1E-8D64-4EE2-A7C6-0AB399F4ECF2";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MicBlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MicBlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

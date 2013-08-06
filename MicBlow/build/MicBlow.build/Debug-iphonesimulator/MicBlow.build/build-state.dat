@@ -1,0 +1,462 @@
+TMicBlow
+v7
+r0
+t327987905.018957
+cCheck dependencies
+cProcessInfoPlistFile /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/Info.plist MicBlow-Info.plist
+cCompileXIB /Users/Eric/workspace/MicBlow/MainWindow.xib
+cCompileXIB /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.xib
+cCpResource build/Debug-iphonesimulator/MicBlow.app/pic1.png pic1.png
+cCpResource build/Debug-iphonesimulator/MicBlow.app/报告背景.png 报告背景.png
+cCpResource build/Debug-iphonesimulator/MicBlow.app/肺功能报告导出.png 肺功能报告导出.png
+cCpResource build/Debug-iphonesimulator/MicBlow.app/风车.png 风车.png
+cCpResource build/Debug-iphonesimulator/MicBlow.app/封面.png 封面.png
+cCpResource build/Debug-iphonesimulator/MicBlow.app/内页.png 内页.png
+cCpResource build/Debug-iphonesimulator/MicBlow.app/ico.png ico.png
+cProcessPCH /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch.gch MicBlow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/main.o /Users/Eric/workspace/MicBlow/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowAppDelegate.o /Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowViewController.o /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow normal i386
+cGenerateDSYMFile /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app.dSYM /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow
+cTouch /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C91794F00000000004D2720
+t1284602191
+s5056288
+
+N/Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.h
+c000000004DC01F2600000000000001A1
+t1304436518
+s417
+i<UIKit/UIKit.h>
+
+N/Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m
+c000000004DC0204A0000000000000A06
+t1304436810
+s2566
+i"MicBlowAppDelegate.h"
+
+N/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.h
+c000000004DDC72330000000000000411
+t1306292787
+s1041
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m
+c000000004DDC7AF10000000000001B03
+t1306295025
+s6915
+i"MicBlowViewController.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.xib
+c000000004DDC647F000000000000931F
+t1306289279
+s37663
+
+N/Users/Eric/workspace/MicBlow/MainWindow.xib
+c000000004DC020E2000000000000503A
+t1304436962
+s20538
+
+N/Users/Eric/workspace/MicBlow/MicBlow_Prefix.pch
+c000000004DC01D5800000000000000B7
+t1304436056
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app
+t1306295105
+s510
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app.dSYM
+t1306295105
+s102
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/Info.plist
+t1306291363
+s647
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MainWindow.nib
+t1304590677
+s1659
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow
+t1306295104
+s30220
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlowViewController.nib
+t1306289302
+s5792
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/PkgInfo
+t1306291363
+s8
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/ico.png
+t1306295104
+s5601
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/pic1.png
+t1304576012
+s19024
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/云.png
+t1306291121
+s5601
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/内页.png
+t1306287077
+s36580
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/封面.png
+t1306288698
+s49792
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/报告背景.png
+t1306295104
+s38870
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/肺功能报告导出.png
+t1306287077
+s124168
+
+N/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/风车.png
+t1306287077
+s10994
+
+N/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlow.LinkFileList
+c000000004DC020430000000000000172
+t1304436803
+s370
+
+N/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowAppDelegate.o
+t1304590678
+s50664
+
+N/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowViewController.o
+t1306295104
+s63468
+
+N/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/main.o
+t1304590678
+s6284
+
+N/Users/Eric/workspace/MicBlow/ico.png
+c000000004DDC95A400000000000015E1
+t1306301860
+s5601
+
+N/Users/Eric/workspace/MicBlow/main.m
+c000000004DC01D58000000000000015E
+t1304436056
+s350
+i<UIKit/UIKit.h>
+
+N/Users/Eric/workspace/MicBlow/pic1.png
+c000000004DC23FBF0000000000004A50
+t1304575935
+s19024
+
+N/Users/Eric/workspace/MicBlow/云.png
+c000000004DDC95A400000000000015E1
+t1306301860
+s5601
+
+N/Users/Eric/workspace/MicBlow/内页.png
+c000000004DDC57EA0000000000008EE4
+t1306286058
+s36580
+
+N/Users/Eric/workspace/MicBlow/封面.png
+c000000004DDC61D4000000000000C280
+t1306288596
+s49792
+
+N/Users/Eric/workspace/MicBlow/报告背景.png
+c000000004DDC95B600000000000097D6
+t1306301878
+s38870
+
+N/Users/Eric/workspace/MicBlow/肺功能报告导出.png
+c000000004DDC57EE000000000001E508
+t1306286062
+s124168
+
+N/Users/Eric/workspace/MicBlow/风车.png
+c000000004DDC5B130000000000002AF2
+t1306286867
+s10994
+
+N/var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-addpwdivvyjnxcgvrgwwsrqgrjkl/MicBlow_Prefix.pch.gch
+t1304436804
+s15453392
+
+N/var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch.gch
+t1304590678
+s15477968
+
+N/var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-dcqutjhxyuwhrqgittggfttgjirh/MicBlow_Prefix.pch.gch
+t2
+s0
+
+NMicBlow-Info.plist
+c000000004DDC6C3400000000000003C1
+t1306291252
+s961
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327987904#327987904#0(0"0(0#1#0"8633100384#0"0#
+
+CCompileC build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowAppDelegate.o /Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326283478.453601
+e326283478.602105
+r1
+xCompileC
+xbuild/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowAppDelegate.o
+x/Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m326283478#326283478#0(0"0(0#0#58"/Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m8636277184#1851"    cd /Users/Eric/workspace/MicBlow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-generated-files.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-own-target-headers.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-all-target-headers.hmap -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-project-headers.hmap -F/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -I/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/include -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources/i386 -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources -include /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch -c /Users/Eric/workspace/MicBlow/Classes/MicBlowAppDelegate.m -o /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowAppDelegate.o0#
+
+CCompileC build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowViewController.o /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327987904.707483
+e327987904.900556
+r1
+xCompileC
+xbuild/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowViewController.o
+x/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m: In function '-[MicBlowViewController startApp:]':
+o/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m:113: warning: format not a string literal and no format arguments
+o/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m: At top level:
+o/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m:277: warning: incomplete implementation of class 'MicBlowViewController'
+o/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m:277: warning: method definition for '-levelTimerCallback:' not found
+lSLF07#2@69"Compile /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m327987904#327987904#0(584"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m: In function '-[MicBlowViewController startApp:]':/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m:113: warning: format not a string literal and no format arguments/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m: At top level:/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m:277: warning: incomplete implementation of class 'MicBlowViewController'/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m:277: warning: method definition for '-levelTimerCallback:' not found4(22@51"Format not a string literal and no format arguments327987904#113#128#0(6@61"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m327987825#113#0#113#0#51"format not a string literal and no format arguments0(23@13"At top level:327987904#241#77#0(6@61"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m327987825#0#0#0#0#0"0(22@58"Incomplete implementation of class 'MicBlowViewController'327987904#318#135#0(6@61"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m327987825#277#0#277#0#38"incomplete implementation of class '*'0(22@54"Method definition for '-levelTimerCallback:' not found327987904#453#131#0(6@61"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m327987825#277#0#277#0#35"method definition for '*' not found0(0#0#61"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m8631047296#1857"    cd /Users/Eric/workspace/MicBlow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-generated-files.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-own-target-headers.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-all-target-headers.hmap -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-project-headers.hmap -F/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -I/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/include -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources/i386 -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources -include /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch -c /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.m -o /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlowViewController.o0#
+
+CCompileC build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/main.o /Users/Eric/workspace/MicBlow/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326283478.452214
+e326283478.559458
+r1
+xCompileC
+xbuild/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/main.o
+x/Users/Eric/workspace/MicBlow/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/Eric/workspace/MicBlow/main.m326283478#326283478#0(0"0(0#0#36"/Users/Eric/workspace/MicBlow/main.m8631606528#1815"    cd /Users/Eric/workspace/MicBlow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-generated-files.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-own-target-headers.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-all-target-headers.hmap -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-project-headers.hmap -F/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -I/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/include -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources/i386 -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources -include /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch -c /Users/Eric/workspace/MicBlow/main.m -o /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.xib
+s327982100.414698
+e327982102.415351
+r1
+xCompileXIB
+x/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.xib
+lSLF07#2@44"CompileXIB Classes/MicBlowViewController.xib327982100#327982102#0(0"0(0#0#63"/Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.xib8614530656#573"    cd /Users/Eric/workspace/MicBlow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlowViewController.nib /Users/Eric/workspace/MicBlow/Classes/MicBlowViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Eric/workspace/MicBlow/MainWindow.xib
+s326283477.158636
+e326283477.688443
+r1
+xCompileXIB
+x/Users/Eric/workspace/MicBlow/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib326283477#326283477#0(0"0(0#0#44"/Users/Eric/workspace/MicBlow/MainWindow.xib8633654560#543"    cd /Users/Eric/workspace/MicBlow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MainWindow.nib /Users/Eric/workspace/MicBlow/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/ico.png ico.png
+s327987904.695605
+e327987904.707132
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/ico.png
+xico.png
+lSLF07#2@12"Copy ico.png327987904#327987904#0(0"0(0#0#37"/Users/Eric/workspace/MicBlow/ico.png8631185856#438"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/ico.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/pic1.png pic1.png
+s326268812.891771
+e326268812.898349
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/pic1.png
+xpic1.png
+lSLF07#2@13"Copy pic1.png326268812#326268812#0(0"0(0#0#38"/Users/Eric/workspace/MicBlow/pic1.png8624045216#439"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/pic1.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/云.png 云.png
+s327983921.194241
+e327983921.200401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/云.png
+x云.png
+lSLF07#2@12"Copy 云.png327983921#327983921#0(0"0(0#0#37"/Users/Eric/workspace/MicBlow/云.png8628354752#438"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/云.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/内页.png 内页.png
+s327979877.454578
+e327979877.480539
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/内页.png
+x内页.png
+lSLF07#2@15"Copy 内页.png327979877#327979877#0(0"0(0#0#40"/Users/Eric/workspace/MicBlow/内页.png8604336640#441"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/内页.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/封面.png 封面.png
+s327981498.621253
+e327981498.633496
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/封面.png
+x封面.png
+lSLF07#2@15"Copy 封面.png327981498#327981498#0(0"0(0#0#40"/Users/Eric/workspace/MicBlow/封面.png8613503104#441"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/封面.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/报告背景.png 报告背景.png
+s327987904.693909
+e327987904.706926
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/报告背景.png
+x报告背景.png
+lSLF07#2@21"Copy 报告背景.png327987904#327987904#0(0"0(0#0#46"/Users/Eric/workspace/MicBlow/报告背景.png8631410816#447"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/报告背景.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/肺功能报告导出.png 肺功能报告导出.png
+s327979877.452707
+e327979877.481236
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/肺功能报告导出.png
+x肺功能报告导出.png
+lSLF07#2@30"Copy 肺功能报告导出.png327979877#327979877#0(0"0(0#0#55"/Users/Eric/workspace/MicBlow/肺功能报告导出.png8611878784#456"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/肺功能报告导出.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CCpResource build/Debug-iphonesimulator/MicBlow.app/风车.png 风车.png
+s327979877.453328
+e327979877.479891
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MicBlow.app/风车.png
+x风车.png
+lSLF07#2@15"Copy 风车.png327979877#327979877#0(0"0(0#0#40"/Users/Eric/workspace/MicBlow/风车.png8613207904#441"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Eric/workspace/MicBlow/风车.png /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+
+CGenerateDSYMFile /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app.dSYM /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow
+s327987904.998224
+e327987905.016178
+r1
+xGenerateDSYMFile
+x/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app.dSYM
+x/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/MicBlow.app.dSYM build/Debug-iphonesimulator/MicBlow.app/MicBlow327987904#327987905#0(0"0(0#0#77"/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow8631835616#356"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow -o /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app.dSYM0#
+
+CLd /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow normal i386
+s327987904.900646
+e327987904.998110
+r1
+xLd
+x/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow
+xnormal
+xi386
+lSLF07#2@82"Link /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow327987904#327987904#0(0"0(0#0#0"8633371520#903"    cd /Users/Eric/workspace/MicBlow    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -F/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -filelist /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/Objects-normal/i386/MicBlow.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -o /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/MicBlow0#
+
+CProcessInfoPlistFile /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/Info.plist MicBlow-Info.plist
+s327984163.159545
+e327984163.169932
+r1
+xProcessInfoPlistFile
+x/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/Info.plist
+xMicBlow-Info.plist
+lSLF07#2@26"Process MicBlow-Info.plist327984163#327984163#0(0"0(0#0#48"/Users/Eric/workspace/MicBlow/MicBlow-Info.plist8626611968#452"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MicBlow-Info.plist -genpkginfo /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app/Info.plist0#
+
+CProcessPCH /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-addpwdivvyjnxcgvrgwwsrqgrjkl/MicBlow_Prefix.pch.gch MicBlow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326129603.714448
+e326129605.212746
+r1
+xProcessPCH
+x/var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-addpwdivvyjnxcgvrgwwsrqgrjkl/MicBlow_Prefix.pch.gch
+xMicBlow_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile MicBlow_Prefix.pch326129603#326129605#0(0"0(0#0#48"/Users/Eric/workspace/MicBlow/MicBlow_Prefix.pch8613633024#1716"    cd /Users/Eric/workspace/MicBlow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-generated-files.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-own-target-headers.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-all-target-headers.hmap -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-project-headers.hmap -F/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -I/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/include -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources/i386 -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources -c /Users/Eric/workspace/MicBlow/MicBlow_Prefix.pch -o /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-addpwdivvyjnxcgvrgwwsrqgrjkl/MicBlow_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch.gch MicBlow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326283477.688574
+e326283478.452119
+r1
+xProcessPCH
+x/var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch.gch
+xMicBlow_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile MicBlow_Prefix.pch326283477#326283478#0(0"0(0#0#48"/Users/Eric/workspace/MicBlow/MicBlow_Prefix.pch8634841600#1716"    cd /Users/Eric/workspace/MicBlow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-generated-files.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-own-target-headers.hmap -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-all-target-headers.hmap -iquote /Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/MicBlow-project-headers.hmap -F/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator -I/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/include -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources/i386 -I/Users/Eric/workspace/MicBlow/build/MicBlow.build/Debug-iphonesimulator/MicBlow.build/DerivedSources -c /Users/Eric/workspace/MicBlow/MicBlow_Prefix.pch -o /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-bfanpfdqjsfzgqcowyyucvxwuuhm/MicBlow_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/cQ/cQXtRv36H24+5xyeN82G+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MicBlow_Prefix-dcqutjhxyuwhrqgittggfttgjirh/MicBlow_Prefix.pch.gch MicBlow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app
+s327987905.016260
+e327987905.018924
+r1
+xTouch
+x/Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app
+lSLF07#2@75"Touch /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app327987905#327987905#0(0"0(0#0#0"8631655168#260"    cd /Users/Eric/workspace/MicBlow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Eric/workspace/MicBlow/build/Debug-iphonesimulator/MicBlow.app0#
+

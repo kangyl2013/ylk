@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	073B70AC137054D800FBD647 /* MicBlow */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MicBlow;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	073B70BB137054DC00FBD647 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	073B70BC137054DC00FBD647 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	073B71091370562700FBD647 /* MicBlowViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 676}}";
+			sepNavSelRange = "{447, 6}";
+			sepNavVisRange = "{255, 786}";
+		};
+	};
+	073B710A1370562700FBD647 /* MicBlowViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {828, 3744}}";
+			sepNavSelRange = "{5847, 0}";
+			sepNavVisRange = "{1012, 158}";
+			sepNavWindowFrame = "{{15, 46}, {750, 732}}";
+		};
+	};
+	07439EDD1371A1AE0058E531 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07439EDE1371A1AE0058E531 /* AudioToolbox.h */;
+		name = "AudioToolbox.h: 19";
+		rLen = 0;
+		rLoc = 497;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 471;
+	};
+	07439EDE1371A1AE0058E531 /* AudioToolbox.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AudioToolbox.h;
+		path = /System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h;
+		sourceTree = "<absolute>";
+	};
+	07AB0C061370E81F00D3FAB9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07AB0C071370E81F00D3FAB9 /* math.h */;
+		name = "math.h: 332";
+		rLen = 0;
+		rLoc = 14374;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 13174;
+	};
+	07AB0C071370E81F00D3FAB9 /* math.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/architecture/i386/math.h;
+		sourceTree = "<absolute>";
+	};
+	07D3B653138C933E001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07FE1E7F1371489800355433 /* pic1.png */;
+	};
+	07D3B655138C933E001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07D3B64B138C9188001D6E1A /* 封面.png */;
+	};
+	07D3B705138CA360001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07D3B649138C9188001D6E1A /* 肺功能报告导出.png */;
+	};
+	07D3B707138CA360001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07D3B64C138C9188001D6E1A /* 内页.png */;
+	};
+	07D3B708138CA360001D6E1A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	07D3B715138CA423001D6E1A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MicBlowAppDelegate.m */;
+		name = "MicBlowAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 558;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 0;
+	};
+	07D3B717138CA423001D6E1A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MicBlow-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFiles,
+		);
+		name = "/Users/Eric/workspace/MicBlow/MicBlow-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	07D3B719138CA423001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07D3B64A138C9188001D6E1A /* 风车.png */;
+	};
+	07D3B71A138CA423001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07D3B6EF138CA218001D6E1A /* ico.png */;
+	};
+	07D3B71B138CA423001D6E1A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MicBlow_Prefix.pch */;
+		name = "MicBlow_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	07D3B724138CA4B2001D6E1A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 07D3B648138C9188001D6E1A /* 报告背景.png */;
+	};
+	07D3B7B0138CAE07001D6E1A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 073B71091370562700FBD647 /* MicBlowViewController.h */;
+		name = "MicBlowViewController.h: 26";
+		rLen = 6;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 255;
+	};
+	07D3B7B1138CAE07001D6E1A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 073B710A1370562700FBD647 /* MicBlowViewController.m */;
+		name = "MicBlowViewController.m: 228";
+		rLen = 0;
+		rLoc = 5979;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 5597;
+	};
+	07D3B7E8138CB36D001D6E1A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 073B710A1370562700FBD647 /* MicBlowViewController.m */;
+		name = "MicBlowViewController.m: 107";
+		rLen = 0;
+		rLoc = 2685;
+		rType = 0;
+		vrLen = 1263;
+		vrLoc = 2215;
+	};
+	07FE1E5B1370F2E100355433 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07FE1E5C1370F2E100355433 /* AVAudioRecorder.h */;
+		name = "AVAudioRecorder.h: 78";
+		rLen = 0;
+		rLoc = 3229;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 0;
+	};
+	07FE1E5C1370F2E100355433 /* AVAudioRecorder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AVAudioRecorder.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioRecorder.h;
+		sourceTree = "<absolute>";
+	};
+	07FE1E5E1370F2E100355433 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MicBlowAppDelegate.h */;
+		name = "MicBlowAppDelegate.h: 5";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* MicBlowAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 383}}";
+			sepNavSelRange = "{67, 0}";
+			sepNavVisRange = "{0, 417}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MicBlowAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1053}}";
+			sepNavSelRange = "{558, 0}";
+			sepNavVisRange = "{0, 1531}";
+			sepNavWindowFrame = "{{15, 46}, {750, 732}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MicBlow */ = {
+		activeExec = 0;
+		executables = (
+			073B70AC137054D800FBD647 /* MicBlow */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 073B70AC137054D800FBD647 /* MicBlow */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MicBlow */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MicBlow */,
+		);
+		codeSenseManager = 073B70BC137054DC00FBD647 /* Code sense */;
+		executables = (
+			073B70AC137054D800FBD647 /* MicBlow */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					578,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					538,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327979161;
+			PBXWorkspaceStateSaveDate = 327979161;
+		};
+		perUserProjectItems = {
+			07439EDD1371A1AE0058E531 /* PBXTextBookmark */ = 07439EDD1371A1AE0058E531 /* PBXTextBookmark */;
+			07AB0C061370E81F00D3FAB9 /* PBXTextBookmark */ = 07AB0C061370E81F00D3FAB9 /* PBXTextBookmark */;
+			07D3B653138C933E001D6E1A /* PBXBookmark */ = 07D3B653138C933E001D6E1A /* PBXBookmark */;
+			07D3B655138C933E001D6E1A /* PBXBookmark */ = 07D3B655138C933E001D6E1A /* PBXBookmark */;
+			07D3B705138CA360001D6E1A /* PBXBookmark */ = 07D3B705138CA360001D6E1A /* PBXBookmark */;
+			07D3B707138CA360001D6E1A /* PBXBookmark */ = 07D3B707138CA360001D6E1A /* PBXBookmark */;
+			07D3B708138CA360001D6E1A /* PBXTextBookmark */ = 07D3B708138CA360001D6E1A /* PBXTextBookmark */;
+			07D3B715138CA423001D6E1A /* PBXTextBookmark */ = 07D3B715138CA423001D6E1A /* PBXTextBookmark */;
+			07D3B717138CA423001D6E1A /* PlistBookmark */ = 07D3B717138CA423001D6E1A /* PlistBookmark */;
+			07D3B719138CA423001D6E1A /* PBXBookmark */ = 07D3B719138CA423001D6E1A /* PBXBookmark */;
+			07D3B71A138CA423001D6E1A /* PBXBookmark */ = 07D3B71A138CA423001D6E1A /* PBXBookmark */;
+			07D3B71B138CA423001D6E1A /* PBXTextBookmark */ = 07D3B71B138CA423001D6E1A /* PBXTextBookmark */;
+			07D3B724138CA4B2001D6E1A /* PBXBookmark */ = 07D3B724138CA4B2001D6E1A /* PBXBookmark */;
+			07D3B7B0138CAE07001D6E1A /* PBXTextBookmark */ = 07D3B7B0138CAE07001D6E1A /* PBXTextBookmark */;
+			07D3B7B1138CAE07001D6E1A /* PBXTextBookmark */ = 07D3B7B1138CAE07001D6E1A /* PBXTextBookmark */;
+			07D3B7E8138CB36D001D6E1A /* PBXTextBookmark */ = 07D3B7E8138CB36D001D6E1A /* PBXTextBookmark */;
+			07FE1E5B1370F2E100355433 /* PBXTextBookmark */ = 07FE1E5B1370F2E100355433 /* PBXTextBookmark */;
+			07FE1E5E1370F2E100355433 /* PBXTextBookmark */ = 07FE1E5E1370F2E100355433 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 073B70BB137054DC00FBD647 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 555}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 350}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MicBlow_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 555}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 183}";
+		};
+	};
+}
